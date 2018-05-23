@@ -1,7 +1,12 @@
+sudo apt install ubuntu-gnome-desktop
+sudo apt install gnome-tweak-tool
+
 sudo apt install libtool-bin
 sudo apt install autopoint
 sudo apt install autoconf
 sudo apt install git
+sudo apt install vim
+sudo apt install tmux
 
 #gnome pomodoro
 sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/kamilprusko/xUbuntu_$(lsb_release -rs)/ /' > /etc/apt/sources.list.d/gnome-pomodoro.list"
@@ -15,11 +20,11 @@ sudo usermod -a -G dialout $USER
 
 sudo apt install exuberant-ctags
 sudo apt install python-pip
-sudo apt install compizconfig-settings-manager
-sudo apt install compiz-plugins
+#sudo apt install compizconfig-settings-manager
+#sudo apt install compiz-plugins
 sudo apt install fonts-inconsolata
 
-sudo apt install jekyll
-sudo apt install libkrb5-dev
+#sudo apt install jekyll
+#sudo apt install libkrb5-dev
 
-sudo apt install cmake
+#sudo apt install cmake
